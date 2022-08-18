@@ -1,6 +1,6 @@
 package policy.app
 
-default allow = false
+default allow = true
 
 allow {
 1 == 1
