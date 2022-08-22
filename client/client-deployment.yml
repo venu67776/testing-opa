@@ -14,7 +14,7 @@ spec:
         configMap:
           name: opa-istio-config
       containers:
-        - name: opa
+      - name: opa
         image: openpolicyagent/opa:0.42.2-envoy-rootless
         volumeMounts:
         - readOnly: true
